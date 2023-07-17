@@ -4,9 +4,23 @@ import {Canvas} from '@react-three/fiber';
 import Navbar from "./navbar";
 import Earth from '../models_to_jsx/Earth'
 import { context } from "../../App";
+import {motion} from 'framer-motion'
 
 export default function Hero(){
     const {scrollToSection} = useContext(context);
+
+    const buttonAnimation = {
+        initial: {
+          y: 0,
+          transition: { duration: 0 },
+        },
+        hover: {
+          y: [-10, 10, -5, 5, 0], // Keyframes for vertical movement
+          transition: { duration: 0.5, ease: 'linear', times: [0, 0.2, 0.4, 0.6, 1] }, // Tempo changes
+        },
+      };
+
+
     return(
         <div className="HeroSection">
             <Navbar/>
@@ -18,7 +32,7 @@ export default function Hero(){
                         in frontend and backend technologies. Discover more about my <br/> 
                         skills, projects, and journey.
                     </div>
-                    <button className="HeroButton" onClick={() => scrollToSection('about')}>Learn More</button>
+                    <motion.button whileHover="hover" initial="initial" animate="initial" variants={buttonAnimation} className="HeroButton" onClick={() => scrollToSection('about')}>Learn More</motion.button>
                 </div>
                 
                 <div className={'HeroRight'}>

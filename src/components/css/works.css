@@ -9,6 +9,10 @@
       height: 200vh;
     }
   }
+
+  a{
+    text-decoration: none;
+  }
   
   .WorksContainer{
     position: relative;
@@ -38,7 +42,6 @@
     width: 50%;
     height: 650px;
     position: relative;
-    background-color: aqua;
   }
 
   .nextButton{
