@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.979e11c5.css",
+    "main.js": "/Portfolio/static/js/main.09e5017a.js",
+    "static/js/787.b554861c.chunk.js": "/Portfolio/static/js/787.b554861c.chunk.js",
+    "static/media/clinic.png": "/Portfolio/static/media/clinic.d066988a0667b2573d56.png",
+    "static/media/moon-transformed.glb": "/Portfolio/static/media/moon-transformed.8fc4dcd2c9aaed9016a8.glb",
+    "static/media/animerecommendation.png": "/Portfolio/static/media/animerecommendation.b26fa56dda625e494ac0.png",
+    "static/media/earth-transformed.glb": "/Portfolio/static/media/earth-transformed.f3079f0c09989b0e92bd.glb",
+    "static/media/retail.png": "/Portfolio/static/media/retail.d52f8f9285a9ff57c035.png",
+    "static/media/artgallery.png": "/Portfolio/static/media/artgallery.4f09074675a698fc5642.png",
+    "static/media/suicideideation.png": "/Portfolio/static/media/suicideideation.2833be9d22d9960244f2.png",
+    "static/media/darkalley.png": "/Portfolio/static/media/darkalley.eaeeaa34c74432e1ff08.png",
+    "static/media/github.png": "/Portfolio/static/media/github.9ae8a28b9724cf33b2e8.png",
+    "static/media/portfoliologo.png": "/Portfolio/static/media/portfoliologo.739b7db581e2187a2ae0.png",
+    "static/media/avatar.png": "/Portfolio/static/media/avatar.7018d894c49319dd593c.png",
+    "static/media/mysql.png": "/Portfolio/static/media/mysql.cb65ce367d8f76a45894.png",
+    "static/media/python.png": "/Portfolio/static/media/python.d8ffdcdc3b0d51914d35.png",
+    "index.html": "/Portfolio/index.html",
+    "main.979e11c5.css.map": "/Portfolio/static/css/main.979e11c5.css.map",
+    "main.09e5017a.js.map": "/Portfolio/static/js/main.09e5017a.js.map",
+    "787.b554861c.chunk.js.map": "/Portfolio/static/js/787.b554861c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.979e11c5.css",
+    "static/js/main.09e5017a.js"
+  ]
+}
