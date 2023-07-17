@@ -1,0 +1,39 @@
+.NavbarSection{    
+    display: flex;
+    justify-content: center;
+}
+
+.NavbarContainer{
+    width: 1400px;
+    position: fixed;
+    z-index: 3;
+}
+
+.NavbarLinks{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.NavbarLogo{
+    height: 50px
+}
+
+.NavbarList{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    @media only screen and (max-width: 768px) {
+      display: none;
+    }
+}
+
+.NavbarList li{
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
