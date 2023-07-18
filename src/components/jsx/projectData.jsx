@@ -29,8 +29,8 @@ const projectData = [
     projectName:'Recipe Roulette',
     projectDescription:'The web application shows different recipes based on the ingredients provided by the user. The recipes are stored in the Firestore database by Firebase, which is accessed by the web application.',
     projectType:'Web Application',
-    image:'',
-    githubLink:'',
+    image:require('../../assets/images/reciperoulette.png'),
+    githubLink:'https://github.com/nuebie/Recipe-Roulette',
     demoLink:''
     },
     {id: 4,

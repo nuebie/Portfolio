@@ -5,9 +5,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    @media only screen and (max-width: 768px) {
+    /*@media only screen and (max-width: 768px) {
       height: 200vh;
-    }
+    }*/
   }
   
   .HeroContainer{
@@ -17,12 +17,12 @@
     width: 1400px;
     display: flex;
     justify-content: space-between;
-    @media only screen and (max-width: 768px) {
+    /*@media only screen and (max-width: 768px) {
       width: 100%;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-    }
+    }*/
   }
   
   .HeroLeft{
@@ -32,10 +32,10 @@
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    @media only screen and (max-width: 768px) {
+    /*@media only screen and (max-width: 768px) {
       flex: 1;
       align-items: center;
-    }
+    }*/
   }
   
   .HeroTitle{
@@ -43,9 +43,9 @@
     color: #FFFFFF;
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
-    @media only screen and (max-width: 768px) {
+    /*@media only screen and (max-width: 768px) {
       text-align: center;
-    }
+    }*/
   }
   
   
@@ -81,9 +81,43 @@
     height: 100%;
     right: 0%;;
     z-index: 1;
-    @media only screen and (max-width: 768px) {
+    /*@media only screen and (max-width: 768px) {
       position: relative;
       flex: 1;
       width: 100%;
+    }*/
+  }
+
+  @media only screen and (max-width: 768px) {
+    .HeroSection{
+
+    }
+
+    .HeroContainer{
+      width: 100%;
+    }
+
+    .HeroLeft{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .HeroTitle{
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .HeroDesc{
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .HeroButton{
+
+    }
+
+    .HeroRight{
+      display: none;
     }
   }

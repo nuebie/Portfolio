@@ -5,9 +5,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    @media only screen and (max-width: 768px) {
+    /*@media only screen and (max-width: 768px) {
       height: 200vh;
-    }
+    }*/
   }
 
   a{
@@ -23,12 +23,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    @media only screen and (max-width: 768px) {
+    /*@media only screen and (max-width: 768px) {
       width: 100%;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-    }
+    }*/
   }
 
   .projType{
@@ -139,4 +139,53 @@
   
   polyline {
     transition: all 250ms ease-in-out;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .WorksSection{
+      width: 100vw;
+      display: block;
+      height: auto;
+      scroll-snap-align: start;
+    }
+
+    .WorksContainer{
+      width: 100%;
+      display: block;
+    }
+
+    .projType{
+      font-size: 24px;
+      width: 100%;
+    }
+
+    .projCardContainer{
+      width: 100%;
+    }
+
+    .nextButton{
+      position: absolute;
+      right: 0px;
+      top: 50%;
+    }
+  
+    .prevButton{
+      position: absolute;
+      left: 0px;
+      top: 50%;
+    }
+
+    .projCard{
+      width: auto;
+      padding: 10px;
+      height: fit-content;
+    }
+
+    .projCard h1{
+      font-size: 24px;
+    }
+
+    .projCard p{
+      font-size: 16px;
+    }
   }

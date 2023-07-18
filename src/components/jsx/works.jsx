@@ -37,17 +37,17 @@ export default function Works(){
                     ))}
         
                     <button className="arrow left prevButton" onClick={prevProject}>
-                            <svg width="60px" height="80px" viewBox="0 0 50 80">
-                                <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
-	                            45.63,75.8 0.375,38.087 45.63,0.375 "/>
-                            </svg>  
-                        </button>
-                        <button className="arrow right nextButton" onClick={nextProject}>
-                            <svg width="60px" height="80px" viewBox="0 0 50 80">
-                                <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
-	                            0.375,0.375 45.63,38.087 0.375,75.8 "/>
-                            </svg>
-                        </button>
+                        <svg width="40px" height="60px" viewBox="0 0 50 80">
+                            <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
+	                        45.63,75.8 0.375,38.087 45.63,0.375 "/>
+                        </svg>  
+                    </button>
+                    <button className="arrow right nextButton" onClick={nextProject}>
+                        <svg width="40px" height="60px" viewBox="0 0 50 80">
+                            <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
+	                        0.375,0.375 45.63,38.087 0.375,75.8 "/>
+                        </svg>
+                    </button>
                 </div>
             </div>
         </div>
